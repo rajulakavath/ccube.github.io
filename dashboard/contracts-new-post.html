@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+================================================== -->
+<title>CCUBE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/colors/blue.css">
+
+</head>
+<body class="gray">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header Container
+================================================== -->
+<header id="header-container" class="fullwidth dashboard-header not-sticky">
+	<!-- Header -->
+	<div id="header">
+		<div class="container">
+			
+			<!-- Left Side Content -->
+			<div class="left-side">
+				
+				<!-- Logo -->
+				<div id="logo">
+					<a href="../index.html"><img src="../images/logo.png" alt=""></a>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav id="navigation">
+					<ul id="responsive">
+						<!-- <li><a href="index.html" class="current">Home</a> -->
+						<li><a href="#">Find Works</a>
+							<ul class="dropdown-nav">
+								<li><a href="../works.html">Find Works</a></li>
+								<li><a href="../contracts.html">Find Contracts</a></li>
+								<li><a href="../projects.html">Find Projects</a></li>
+								<li><a href="../machinery.html">Find Machinery</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Find Service Providers</a>
+							<ul class="dropdown-nav">
+								<li><a href="../clients.html">Clients</a></li>
+								<li><a href="../contractors.html">Contractors</a></li>
+								<li><a href="../labour-heads.html">Labour Heads</a></li>
+								<li><a href="../companies.html">Companies</a></li>
+								<li><a href="../connections.html">Find Connections</a></li>
+							</ul>
+						</li>
+						<li><a href="#">How it Works</a>
+							<ul class="dropdown-nav">
+								<li><a href="../howitworks/clients.html">Clients</a></li>
+								<li><a href="../howitworks/contractors.html">Contractors</a></li>
+								<li><a href="../howitworks/labour-heads.html">Labour Heads</a></li>
+								<li><a href="../../howitworks/companies.html">Companies</a></li>
+								<li><a href="../howitworks/machinery-owner.html">Machinery Owners</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+				<!-- Main Navigation / End -->
+				
+			</div>
+			<!-- Left Side Content / End -->
+
+
+			<!-- Right Side Content / End -->
+			<div class="right-side">
+
+				<!--  User Notifications -->
+				<div class="header-widget hide-on-mobile">
+					
+					<!-- Notifications -->
+					<div class="header-notifications">
+
+						<!-- Trigger -->
+						<div class="header-notifications-trigger">
+							<a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i><span>4</span></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<div class="header-notifications-headline">
+								<h4>Notifications</h4>
+								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<span class="material-icons">check_box</span>
+								</button>
+							</div>
+
+							<div class="header-notifications-content">
+								<div class="header-notifications-scroll" data-simplebar>
+									<ul>
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="../work_details.html">
+												<!-- <span class="notification-icon"><i class="icon-material-outline-group"></i></span> -->
+
+												<span class="material-icons notification-icon">group</span>
+
+												<span class="notification-text">
+													<strong>Mahesh Annam</strong> applied for a job <span class="color">As daily Labour in Building Construction</span>
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="../project_details.html">
+												<span class="material-icons notification-icon">gavel</span>
+												<span class="notification-text">
+													<strong>Gilbert Allanis</strong> placed a bid on your <span class="color">iOS App Development</span> project
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="../work_details.html">
+												<span class="material-icons notification-icon">autorenew</span>
+												<span class="notification-text">
+													Your job listing <span class="color">Full Stack PHP Developer</span> is expiring.
+												</span>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li>
+											<a href="dashboard-manage-candidates.html">
+												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+												<span class="notification-text">
+													<strong>Sindy Forrest</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					
+					<!-- Messages -->
+					<div class="header-notifications">
+						<div class="header-notifications-trigger">
+							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i><span>3</span></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<div class="header-notifications-headline">
+								<h4>Messages</h4>
+								<button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<span class="material-icons">check_box</span>
+								</button>
+							</div>
+
+							<div class="header-notifications-content">
+								<div class="header-notifications-scroll" data-simplebar>
+									<ul>
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-online"><img src="../images/user-avatar-small-03.jpg" alt=""></span>
+												<div class="notification-text">
+													<strong>David Peterson</strong>
+													<p class="notification-msg-text">Thanks for reaching out. I'm quite busy right now on many...</p>
+													<span class="color">4 hours ago</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-offline"><img src="../images/user-avatar-small-02.jpg" alt=""></span>
+												<div class="notification-text">
+													<strong>Sindy Forest</strong>
+													<p class="notification-msg-text">Hi Tom! Hate to break it to you, but I'm actually on vacation until...</p>
+													<span class="color">Yesterday</span>
+												</div>
+											</a>
+										</li>
+
+										<!-- Notification -->
+										<li class="notifications-not-read">
+											<a href="dashboard-messages.html">
+												<span class="notification-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></span>
+												<div class="notification-text">
+													<strong>Marcin Kowalski</strong>
+													<p class="notification-msg-text">I received payment. Thanks for cooperation!</p>
+													<span class="color">Yesterday</span>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="dashboard-messages.html" class="header-notifications-button ripple-effect button-sliding-icon">View All Messages<i class="icon-material-outline-arrow-right-alt"></i></a>
+						</div>
+					</div>
+
+				</div>
+				<!--  User Notifications / End -->
+
+				<!-- User Menu -->
+				<div class="header-widget">
+
+					<!-- Messages -->
+					<div class="header-notifications user-menu">
+						<div class="header-notifications-trigger">
+							<a href="#"><div class="user-avatar status-online"><img src="../images/annam.jpg" alt=""></div></a>
+						</div>
+
+						<!-- Dropdown -->
+						<div class="header-notifications-dropdown">
+
+							<!-- User Status -->
+							<div class="user-status">
+
+								<!-- User Name / Avatar -->
+								<div class="user-details">
+									<div class="user-avatar status-online"><img src="../images/annam.jpg" alt=""></div>
+									<div class="user-name">
+										Annam Mahesh <span>Building Constructor</span>
+									</div>
+								</div>
+								
+								<!-- User Status Switcher -->
+								<div class="status-switch" id="snackbar-user-status">
+									<label class="user-online current-status">Employee</label>
+									<label class="user-invisible">Employer</label>
+									<!-- Status Indicator -->
+									<span class="status-indicator" aria-hidden="true"></span>
+								</div>	
+						</div>
+						
+						<ul class="user-menu-small-nav">
+							<li><a href="dashboard/dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a></li>
+							<li><a href="dashboard/dashboard-settings.html"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a></li>
+							<li><a href="index.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+						</ul>
+
+						</div>
+					</div>
+
+				</div>
+				<!-- User Menu / End -->
+
+				<!-- Mobile Navigation Button -->
+				<span class="mmenu-trigger">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</span>
+
+			</div>
+			<!-- Right Side Content / End -->
+
+		</div>
+	</div>
+	<!-- Header / End -->
+
+</header>
+<div class="clearfix"></div>
+<!-- Header Container / End -->
+
+
+<!-- Dashboard Container -->
+<div class="dashboard-container">
+
+	<!-- Dashboard Sidebar
+	================================================== -->
+	<div class="dashboard-sidebar">
+		<div class="dashboard-sidebar-inner" data-simplebar>
+			<div class="dashboard-nav-container">
+
+				<!-- Responsive Navigation Trigger -->
+				<a href="#" class="dashboard-responsive-nav-trigger">
+					<span class="hamburger hamburger--collapse" >
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</span>
+					<span class="trigger-title">Dashboard Navigation</span>
+				</a>
+				
+				<!-- Navigation -->
+				<div class="dashboard-nav">
+					<div class="dashboard-nav-inner">
+
+						<ul data-submenu-title="Start">
+							<li><a href="dashboard.html"><i class="fa fa-folder-open-o" aria-hidden="true"></i> Dashboard</a></li>
+							<li><a href="dashboard-messages.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Messages <span class="nav-tag">2</span></a></li>
+							<li><a href="dashboard-bookmarks.html"><i class="fa fa-bookmark-o" aria-hidden="true"></i> Bookmarks</a></li>
+							<li><a href="dashboard-reviews.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Reviews</a></li>
+						</ul>
+						
+						<ul data-submenu-title="Works">
+							<li><a href="#"><i class="fa fa-thumb-tack" aria-hidden="true"></i> My Applied Works</a>
+								<ul>
+									<li><a href="applied-works.html">Works <span class="nav-tag">2</span></a></li>
+									<li><a href="contracts-all.html">Contracts</a></li>
+									<li><a href="projects-all.html">Projects</a></li>
+									<li><a href="machinery-all.html">Machinery<span class="nav-tag">4</span></a></li>
+								</ul>	
+							</li>
+						</ul>
+
+						<ul data-submenu-title="Manage">
+							<li><a href="#"><i class="fa fa-thumb-tack" aria-hidden="true"></i> My Works</a>
+								<ul>
+									<li><a href="posted-a-work.html">Manage Works <span class="nav-tag">4</span></a></li>
+									<li><a href="posted-candidates-manage.html">Manage Candidates <span class="nav-tag">4</span></a></li>
+									<li><a href="post-a-work.html">Post a Work <span class="nav-tag">4</span></a></li>
+								</ul>	
+							</li>
+
+							<li class="active-submenu active"><a href="#"><i class="fa fa-thumb-tack" aria-hidden="true"></i>My Contracts</a>
+								<ul>
+									<li><a href="contracts-manage.html">Manage Contracts <span class="nav-tag">2</span></a></li>
+									<li><a href="contracts-manage-bidders.html">Manage Bidders <span class="nav-tag">4</span></a></li>
+									<li><a href="contracts-my-active-bids.html">My Active Bids</a></li>
+									<li class="active"><a href="contracts-new-post.html">Post a Contract</a></li>
+								</ul>	
+							</li>
+
+							<li><a href="#"><i class="fa fa-thumb-tack" aria-hidden="true"></i>My Projects</a>
+								<ul>
+									<li><a href="projects-manage.html">Manage Projects <span class="nav-tag">2</span></a></li>
+									<li><a href="projects-manage-bidders.html">Manage Bidders <span class="nav-tag">4</span></a></li>
+									<li><a href="projects-my-active-bids.html">My Active Bids</a></li>
+									<li><a href="projects-new-post.html">Post a Project</a></li>
+								</ul>	
+							</li>
+
+							<li><a href="#"><i class="fa fa-thumb-tack" aria-hidden="true"></i>My Machinery</a>
+								<ul>
+									<li><a href="machinery-manage.html">Manage Machinery <span class="nav-tag">2</span></a></li>
+									<li><a href="machinery-manage_requests.html">Manage Requests<span class="nav-tag">4</span></a></li>
+									<li><a href="machinery-new-post.html">Post a Machinery</a></li>
+								</ul>	
+							</li>
+						</ul>
+
+						<ul data-submenu-title="Account">
+							<li><a href="dashboard-settings.html"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a></li>
+							<li><a href="index-logged-out.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+						</ul>
+						
+					</div>
+				</div>
+				<!-- Navigation / End -->
+
+			</div>
+		</div>
+	</div>
+	<!-- Dashboard Sidebar / End -->
+
+
+	<!-- Dashboard Content
+	================================================== -->
+	<div class="dashboard-content-container" data-simplebar>
+		<div class="dashboard-content-inner" >
+			
+			<!-- Dashboard Headline -->
+			<div class="dashboard-headline">
+				<h3>Post a Contract</h3>
+
+				<!-- Breadcrumbs -->
+				<nav id="breadcrumbs" class="dark">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Dashboard</a></li>
+						<li>Post a Contract</li>
+					</ul>
+				</nav>
+			</div>
+	
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Dashboard Box -->
+				<div class="col-xl-12">
+					<div class="dashboard-box margin-top-0">
+
+						<!-- Headline -->
+						<div class="headline">
+							<h3><i class="fa fa-folder-open-o" aria-hidden="true"></i> Contract Creation Form</h3>
+						</div>
+
+						<div class="content with-padding padding-bottom-10">
+							<div class="row">
+
+								<div class="col-xl-12">
+									<div class="submit-field">
+										<h5>Contract Name</h5>
+										<input type="text" class="with-border" placeholder="e.g. build me a website">
+									</div>
+								</div>
+
+								<div class="col-xl-4">
+									<div class="submit-field">
+										<h5>Category</h5>
+										<select class="selectpicker with-border" data-size="7" title="Select Category">
+											<option>Admin Support</option>
+											<option>Customer Service</option>
+											<option>Data Analytics</option>
+											<option>Design & Creative</option>
+											<option>Legal</option>
+											<option>Software Developing</option>
+											<option>IT & Networking</option>
+											<option>Writing</option>
+											<option>Translation</option>
+											<option>Sales & Marketing</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="col-xl-4">
+									<div class="submit-field">
+										<h5>Location  <i class="fa fa-info-circle" aria-hidden="true" data-tippy-placement="right" title="Specify the exact nearby landmark if needed"></i></h5>
+										<div class="input-with-icon">
+											<div id="autocomplete-container">
+												<input id="autocomplete-input" class="with-border" type="text" placeholder="Anywhere">
+											</div>
+											<i class="fa fa-map-marker" aria-hidden="true"></i>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-4">
+									<div class="submit-field">
+										<h5>Expires</h5>
+										<div class="input-with-icon">
+											<div id="autocomplete-container">
+												<input class="with-border" type="date" placeholder="Type Address" style="padding-right: 0px;">
+											</div>
+											<!-- <i class="fa fa-map-marker" aria-hidden="true"></i> -->
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-6">
+									<div class="submit-field">
+										<h5>What is your estimated budget?</h5>
+										<div class="row">
+											<div class="col-xl-6">
+												<div class="input-with-icon">
+													<input class="with-border" type="text" placeholder="Minimum">
+													<i class="currency">USD</i>
+												</div>
+											</div>
+											<div class="col-xl-6">
+												<div class="input-with-icon">
+													<input class="with-border" type="text" placeholder="Maximum">
+													<i class="currency">USD</i>
+												</div>
+											</div>
+										</div>
+										<div class="feedback-yes-no margin-top-0">
+											<div class="radio">
+												<input id="radio-1" name="radio" type="radio" checked>
+												<label for="radio-1"><span class="radio-label"></span> Fixed Price Project</label>
+											</div>
+
+											<div class="radio">
+												<input id="radio-2" name="radio" type="radio">
+												<label for="radio-2"><span class="radio-label"></span> Hourly Project</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-xl-6">
+									<div class="submit-field">
+										<h5>What skills are required? <i class="fa fa-info-circle" aria-hidden="true" data-tippy-placement="right" title="Up to 5 skills that best describe your Contract"></i></h5>
+										<div class="keywords-container">
+											<div class="keyword-input-container">
+												<input type="text" class="keyword-input with-border" placeholder="Add Skills"/>
+												<button class="keyword-input-button ripple-effect"><i class="fa fa-plus" aria-hidden="true"></i></button>
+											</div>
+											<div class="keywords-list"><!-- keywords go here --></div>
+											<div class="clearfix"></div>
+										</div>
+
+									</div>
+								</div>						
+
+								<div class="col-xl-12">
+									<div class="submit-field">
+										<h5>Describe Your Contract</h5>
+										<textarea cols="30" rows="5" class="with-border"></textarea>
+										<h5 class="margin-top-30">Attachments</h5>
+										<div class="uploadButton">
+											<input class="uploadButton-input" type="file" accept="image/*, application/pdf" id="upload" multiple/>
+											<label class="uploadButton-button ripple-effect" for="upload">Upload Files</label>
+											<span class="uploadButton-file-name">Pdf or documents that might be helpful in describing your project</span>
+											<span class="uploadButton-file-name">Max size: 10 MB</span>
+										</div>
+									</div>
+
+									<div class="col-xl-4">
+										<div class="submit-field">
+											<!-- Attachments -->
+											<div class="attachments-container margin-top-0 margin-bottom-0">
+												<div class="attachment-box ripple-effect">
+													<span>Brouchure</span>
+													<i>PDF</i>
+													<button class="remove-attachment" data-tippy-placement="top" title="Remove"></button>
+												</div>
+												<div class="attachment-box ripple-effect">
+													<span>Contract</span>
+													<i>DOCX</i>
+													<button class="remove-attachment" data-tippy-placement="top" title="Remove"></button>
+												</div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-6  offset-xl-5">
+					<a href="#" class="button ripple-effect big margin-top-30"><i class="fa fa-plus" aria-hidden="true"></i> Post a Contract</a>
+				</div>
+
+			</div>
+			<!-- Row / End -->
+
+			<!-- Footer -->
+			<div class="dashboard-footer-spacer"></div>
+			<div class="small-footer margin-top-15">
+				<div class="small-footer-copyrights">
+					© 2020 <strong>Ccube</strong>. All Rights Reserved.
+				</div>
+				<ul class="footer-social-links">
+					<li>
+						<a href="#" title="Facebook" data-tippy-placement="top">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Twitter" data-tippy-placement="top">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Google Plus" data-tippy-placement="top">
+							<i class="fa fa-google" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" title="LinkedIn" data-tippy-placement="top">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+			<!-- Footer / End -->
+
+		</div>
+	</div>
+	<!-- Dashboard Content / End -->
+
+</div>
+<!-- Dashboard Container / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Scripts
+================================================== -->
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/jquery-migrate-3.1.0.min.js"></script>
+<script src="../js/mmenu.min.js"></script>
+<script src="../js/tippy.all.min.js"></script>
+<script src="../js/simplebar.min.js"></script>
+<script src="../js/bootstrap-slider.min.js"></script>
+<script src="../js/bootstrap-select.min.js"></script>
+<script src="../js/snackbar.js"></script>
+<script src="../js/clipboard.min.js"></script>
+<script src="../js/counterup.min.js"></script>
+<script src="../js/magnific-popup.min.js"></script>
+<script src="../js/slick.min.js"></script>
+<script src="../js/custom.js"></script>
+
+<!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
+<script>
+// Snackbar for user status switcher
+$('#snackbar-user-status label').click(function() { 
+	Snackbar.show({
+		text: 'Your status has been changed!',
+		pos: 'bottom-center',
+		showAction: false,
+		actionText: "Dismiss",
+		duration: 3000,
+		textColor: '#fff',
+		backgroundColor: '#383838'
+	}); 
+}); 
+</script>
+
+<!-- Chart.js // documentation: http://www.chartjs.org/docs/latest/ -->
+<script src="js/chart.min.js"></script>
+<script>
+	Chart.defaults.global.defaultFontFamily = "Nunito";
+	Chart.defaults.global.defaultFontColor = '#888';
+	Chart.defaults.global.defaultFontSize = '14';
+
+	var ctx = document.getElementById('chart').getContext('2d');
+
+	var chart = new Chart(ctx, {
+		type: 'line',
+
+		// The data for our dataset
+		data: {
+			labels: ["January", "February", "March", "April", "May", "June"],
+			// Information about the dataset
+	   		datasets: [{
+				label: "Views",
+				backgroundColor: 'rgba(42,65,232,0.08)',
+				borderColor: '#2a41e8',
+				borderWidth: "3",
+				data: [196,132,215,362,210,252],
+				pointRadius: 5,
+				pointHoverRadius:5,
+				pointHitRadius: 10,
+				pointBackgroundColor: "#fff",
+				pointHoverBackgroundColor: "#fff",
+				pointBorderWidth: "2",
+			}]
+		},
+
+		// Configuration options
+		options: {
+
+		    layout: {
+		      padding: 10,
+		  	},
+
+			legend: { display: false },
+			title:  { display: false },
+
+			scales: {
+				yAxes: [{
+					scaleLabel: {
+						display: false
+					},
+					gridLines: {
+						 borderDash: [6, 10],
+						 color: "#d8d8d8",
+						 lineWidth: 1,
+	            	},
+				}],
+				xAxes: [{
+					scaleLabel: { display: false },  
+					gridLines:  { display: false },
+				}],
+			},
+
+		    tooltips: {
+		      backgroundColor: '#333',
+		      titleFontSize: 13,
+		      titleFontColor: '#fff',
+		      bodyFontColor: '#fff',
+		      bodyFontSize: 13,
+		      displayColors: false,
+		      xPadding: 10,
+		      yPadding: 10,
+		      intersect: false
+		    }
+		},
+
+
+});
+
+</script>
+
+
+<!-- Google Autocomplete -->
+<script>
+	function initAutocomplete() {
+		 var options = {
+		  types: ['(cities)'],
+		  // componentRestrictions: {country: "us"}
+		 };
+
+		 var input = document.getElementById('autocomplete-input');
+		 var autocomplete = new google.maps.places.Autocomplete(input, options);
+
+		if ($('.submit-field')[0]) {
+		    setTimeout(function(){ 
+		        $(".pac-container").prependTo("#autocomplete-container");
+		    }, 300);
+		}
+	}
+</script>
+
+<!-- Google API & Maps -->
+<!-- Geting an API Key: https://developers.google.com/maps/documentation/javascript/get-api-key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaoOT9ioUE4SA8h-anaFyU4K63a7H-7bc&libraries=places"></script>
+
+
+</body>
+</html>
